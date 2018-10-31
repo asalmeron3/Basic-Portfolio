@@ -1,0 +1,51 @@
+#bod {
+  background: #ebebeb;
+}
+
+/*making my top navigation bar with 100 % view width
+the posistion will be absolute (sticky navigation bar) */
+.bars {
+  width: 100vw;
+  height: 60px;
+  background: white;
+  padding-bottom: 1px;
+}
+
+#tleft {
+  /*smaller view widht than full bar. */
+  background: teal; /*I will find a better color later. Maybe */
+  color: white;
+  float: left; /*has to float left BUT with a margin the later lines up with the bio section */
+  margin-left: 50px;
+  padding: 10px 15px;
+  height: 40px;
+  text-align: center;
+  font-size: 25px;
+  clear: right;
+}
+
+.tright {
+  float: right; /*floats right BUT with a RIGHT margins that lines up the the "connect w/ me" seciton */
+  color: #777;
+  margin-right: 60px;
+  padding: 20px 0px;
+}
+
+#about {
+  float: left;
+}
+
+#port {
+  float: left;
+  padding: 0px 15px;
+}
+
+#cont {
+  float: left;
+}
+
+#line {
+  position: inherit;
+  background: gray;
+  padding: 1px;
+}
